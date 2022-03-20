@@ -26,11 +26,11 @@ class FixedSizedInMemoryCache extends InMemoryCache
     {
         if ($this->count() >= $this->maxSize) {
             throw new \OverflowException(
-                'Can not add cache entry with key "'
+                'Can not add cache entry with key \''
                 . $key
-                . '" to fixed sized in-memory cache, because limit of '
+                . '\' to fixed sized in-memory cache, because limit of '
                 . $this->maxSize
-                . ' is reached',
+                . ' is reached.',
                 1632168251
             );
         }
