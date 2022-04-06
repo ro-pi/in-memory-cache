@@ -3,7 +3,7 @@
 This PHP-based library provides different in-memory caches.
 
 ### Requirements
-* PHP ^8.1
+* PHP ^8.0
 ## Installation
 The library can be installed from a command line interface by using [composer](https://getcomposer.org/).
 
